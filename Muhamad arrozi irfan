@@ -17,3 +17,23 @@ int main()
  x+1,numbers[x]);
  return(0);
 }
+int main()
+{
+	float ab,cd,hasil;
+	const float pi=3.14;
+	long c;
+	do
+	{
+	cout<< "1.LUAS SEGITIGA\n2.LUAS LINGKARAN\n3. KELUAR \n\n";
+	cout<<"Masukan Pilihan Anda :";
+	cin>> c;
+	cout<<"\n\n";
+	switch(c)
+		{ 
+		case 1:
+			{ 
+			segitiga(&ab,&cd);
+			hasil=0.5*ab*cd;
+			cout<<"hasilnya\t:"<<hasil<<"\n\n";
+			break;
+		}
